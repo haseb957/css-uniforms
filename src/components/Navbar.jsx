@@ -46,9 +46,13 @@ const Navbar = () => {
       {/* Main Navbar */}
       <nav className="shadow-md bg-white sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
-          <Link to="/" className="text-3xl font-bold">
-            CCS
-          </Link>
+          <Link to="/">
+  <img
+    src="/logo.png"
+    alt="CCS Logo"
+    className="w-40 object-contain"
+  />
+</Link>
 
           <div className="hidden md:flex gap-8 items-center">
             {mainLinks.map((link, index) => (
@@ -57,7 +61,7 @@ const Navbar = () => {
               </Link>
             ))}
 
-            <button className="bg-red-600 text-white px-5 py-2 rounded">
+            <button style={{backgroundColor:"oklch(0.67 0.18 144.23)", borderColor:"transparent"}} className="text-white px-5 py-2 rounded">
               Get Quote
             </button>
           </div>

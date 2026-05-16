@@ -8,9 +8,11 @@ const Footer = () => {
 
         {/* Company */}
         <div>
-          <h2 className="text-2xl font-bold mb-5">
-            CCS
-          </h2>
+          <img
+    src="/logo.png"
+    alt="CCS Logo"
+    className="w-52 object-contain"
+  />
 
           <p className="text-gray-400">
             Premium chef and hospitality uniform solutions
