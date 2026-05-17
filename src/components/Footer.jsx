@@ -9,9 +9,9 @@ const Footer = () => {
         {/* Company */}
         <div>
           <img
-    src="/logo.png"
+    src="/image.png"
     alt="CCS Logo"
-    className="w-52 object-contain"
+    className="w-46 object-contain"
   />
 
           <p className="text-gray-400">

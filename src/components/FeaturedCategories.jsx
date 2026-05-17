@@ -7,7 +7,7 @@ const FeaturedCategories = () => {
       <div className="max-w-7xl mx-auto">
         
         <div className="text-center mb-12">
-          <p className="text-red-600 font-semibold uppercase">
+          <p style={{color:"oklch(0.67 0.18 144.23)"}} className="font-semibold uppercase">
             Our Categories
           </p>
 

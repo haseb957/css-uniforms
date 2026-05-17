@@ -8,7 +8,7 @@ const Hero = () => {
           
           {/* Left Content */}
           <div>
-            <p className="text-red-600 font-semibold uppercase tracking-wide mb-4">
+            <p style={{color:"oklch(0.67 0.18 144.23)"}} className="font-semibold uppercase tracking-wide mb-4">
               Premium Quality Uniforms
             </p>
 
@@ -24,7 +24,8 @@ const Hero = () => {
             <div className="flex gap-4">
               <Link
                 to="/products"
-                className="bg-red-600 text-white px-6 py-3 rounded-md font-medium"
+                className="text-white px-6 py-3 rounded-md font-medium"
+                style={{backgroundColor:"oklch(0.67 0.18 144.23)", borderColor:"transparent"}}
               >
                 Shop Products
               </Link>

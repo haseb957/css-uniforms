@@ -27,17 +27,17 @@ const Contact = () => {
             <div className="space-y-6">
 
               <div className="flex items-center gap-4">
-                <FaPhoneAlt className="text-2xl text-red-600" />
+                <FaPhoneAlt style={{color:"oklch(0.67 0.18 144.23)"}} className="text-2xl" />
                 <p>+92 XXX XXXXXXX</p>
               </div>
 
               <div className="flex items-center gap-4">
-                <FaEnvelope className="text-2xl text-red-600" />
+                <FaEnvelope style={{color:"oklch(0.67 0.18 144.23)"}} className="text-2xl" />
                 <p>info@ccs.com</p>
               </div>
 
               <div className="flex items-center gap-4">
-                <FaMapMarkerAlt className="text-2xl text-red-600" />
+                <FaMapMarkerAlt style={{color:"oklch(0.67 0.18 144.23)"}} className="text-2xl" />
                 <p>Lahore, Pakistan</p>
               </div>
 
@@ -74,7 +74,8 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="bg-red-600 text-white px-6 py-3 rounded-md"
+                style={{backgroundColor:"oklch(0.67 0.18 144.23)", borderColor:"transparent"}}
+                className="text-white px-6 py-3 rounded-md"
               >
                 Send Message
               </button>

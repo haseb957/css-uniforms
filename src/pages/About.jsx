@@ -26,7 +26,7 @@ const About = () => {
           </div>
 
           <div>
-            <p className="text-red-600 font-semibold uppercase mb-4">
+            <p style={{color:"oklch(0.67 0.18 144.23)"}} className="font-semibold uppercase mb-4">
               Who We Are
             </p>
 
@@ -81,7 +81,7 @@ const About = () => {
       <section className="py-20 px-6 lg:px-10">
         <div className="max-w-7xl mx-auto text-center">
           
-          <p className="text-red-600 font-semibold uppercase">
+          <p style={{color:"oklch(0.67 0.18 144.23)"}} className="font-semibold uppercase">
             Our Process
           </p>
 

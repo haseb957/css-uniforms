@@ -44,7 +44,7 @@ const ProductDetail = () => {
             durability, and professional appearance.
           </p>
 
-          <button className="bg-red-600 text-white px-6 py-3 rounded-md">
+          <button style={{backgroundColor:"oklch(0.67 0.18 144.23)", borderColor:"transparent"}} className="text-white px-6 py-3 rounded-md">
             Request Quote
           </button>
         </div>

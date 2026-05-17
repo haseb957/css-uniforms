@@ -26,7 +26,8 @@ const ProductCard = ({ product }) => {
 
         <Link
           to={`/products/${product.id}`}
-          className="inline-block bg-black text-white px-5 py-2 rounded-md"
+          style={{backgroundColor:"oklch(0.67 0.18 144.23)", borderColor:"transparent"}}
+          className="inline-block text-white px-5 py-2 rounded-md"
         >
           View Details
         </Link>
